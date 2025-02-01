@@ -1,0 +1,10 @@
+<?php
+
+interface PaymentMethod
+{
+    public function Credit();
+
+    public function Fawry();
+
+    public function PayPal();
+}
