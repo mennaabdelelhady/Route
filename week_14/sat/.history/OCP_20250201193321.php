@@ -12,7 +12,11 @@ Class Accounting{
 }
 class product extends accounting{
     public function getProductPrice(){
+        if($type =='product'){
             return $this->price;
+        }else if($type =='taxproduct'){
+            return $this->price + ($this->price * 0.05);
+        }
     }
 }
 $acc = new Accounting;

@@ -10,11 +10,6 @@ Class Accounting{
         }
     }
 }
-class product extends accounting{
-    public function getProductPrice(){
-            return $this->price;
-    }
-}
 $acc = new Accounting;
 $acc->price = 100;
 echo $acc->getProductPrice();
