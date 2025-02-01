@@ -10,8 +10,11 @@ Class Rectangle extends Shape{
     public $width;
     public $height;
 
-    public function _construct($width, $height){
+    public function setWidth($width){
         $this->width = $width;
+    }
+
+    public function setHeight($height){
         $this->height = $height;
     }
     public function getArea(){

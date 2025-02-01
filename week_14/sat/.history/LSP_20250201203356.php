@@ -4,7 +4,7 @@
 
 
 abstract class Shape{
-    abstract public function getArea();
+    abstract public function getarea();
 }
 Class Rectangle extends Shape{
     public $width;
