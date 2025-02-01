@@ -11,13 +11,9 @@ class Test{
         echo "Hi";
     }
     public function _destruct(){
-        echo "<br>";
         echo "Bye";
     }
 }
-function callTest(){
-    $test = new Test();
-}
-callTest();
+$test = new Test;
 echo "<br>";
 echo "Menna";

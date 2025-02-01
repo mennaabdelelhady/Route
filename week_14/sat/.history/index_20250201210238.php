@@ -15,9 +15,6 @@ class Test{
         echo "Bye";
     }
 }
-function callTest(){
-    $test = new Test();
-}
-callTest();
+$test = new Test;
 echo "<br>";
 echo "Menna";

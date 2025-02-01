@@ -15,9 +15,7 @@ class Test{
         echo "Bye";
     }
 }
-function callTest(){
-    $test = new Test();
-}
-callTest();
+$test = new Test;
+unset($test);
 echo "<br>";
 echo "Menna";

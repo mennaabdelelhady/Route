@@ -16,7 +16,7 @@ class Test{
     }
 }
 function callTest(){
-    $test = new Test();
+    $obj = new Test();
 }
 callTest();
 echo "<br>";
