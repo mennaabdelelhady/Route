@@ -1,0 +1,11 @@
+{
+    "name": "user/tue",
+    "type":"project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\Tue\\": "src/"
+        }
+    },
+    "require": {}
+}
