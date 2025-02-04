@@ -27,5 +27,5 @@ Class App{
             }else{
                 echo 'Method not found';
             }
-    }
+    }}
 }
